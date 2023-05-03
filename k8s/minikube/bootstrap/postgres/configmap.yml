@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postgres-config
+data:
+  POSTGRES_DB: microspring
+  POSTGRES_USER: alkemy
+  POSTGRES_PASSWORD: ulthane92
